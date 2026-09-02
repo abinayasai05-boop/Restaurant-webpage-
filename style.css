@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+header{
+    background:#ff5722;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4')
+    center/cover;
+    color:white;
+}
+
+.hero button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:white;
+    color:#ff5722;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+section{
+    padding:40px;
+    text-align:center;
+}
+
+.menu-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:200px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
